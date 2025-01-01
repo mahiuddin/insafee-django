@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{% block title %}{% endblock %}</title>
-  {% load bootstrap5 %}
-  {% bootstrap_css %}
-  {% bootstrap_javascript %}
-</head>
-<body>
+{% extends 'layout.html' %}
 
-<div class="container">
-  <ul class="nav bg-info">
-    <li class="nav-item">
-      <a class="nav-link link-light" href="/">HOME</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link link-light" href="/">Test</a>
-    </li>
-  </ul>
+{% block title %}Home{% endblock %}
 
-  {% block content %}
-  {% endblock %}
-</div>
-</body>
-</html>
+{% block content %}
+  <h1> </h1>
+  <p> </p>
+{% endblock %}
