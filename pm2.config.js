@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
     {
-    name: "Insafee",
+    name: "insafee",
     script: "/var/www/insafee.com/venv/bin/gunicorn",
     args: "insafee.wsgi:application --workers 3 --bind 0.0.0.0:8004",
     cwd: "/var/www/insafee.com/insafee",
